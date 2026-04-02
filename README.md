@@ -106,11 +106,15 @@ All detailed documentation is available in the docs/ folder:
 - Project Abstract
 
 ## Author
-Olga Ruiz, a data Science student
+Olga Ruiz. Data science student 
 
 ## Notes
 The project includes 24 tables with realistic relationships.
+
 Data has been  generated to simulate real-world scenarios.
+
 The CancellationPolicy table has only 5 records which reflects real Airbnb cancellation options.
+
 Total database size is under 1 MB, making it portable and quick to restore.
+
 The design supports property verification by administrators, availability calendars per date and threaded messaging.
