@@ -1,1 +1,41 @@
-Airbnb Database Installation ManualCourse: Build a Data Mart in SQL (DLBDSPBDM01)Student: Olga Ruiz Matriculation number: 9215654INDEX: 1. System Requirements2. Included Files3. Installation Steps4. Installation Verification5. Notes1. System RequirementsTo run this database system, you will need:- A relational database management system: MySQL 8.0 or higher- A database client such as MySQL Workbench, DBeaver, etc. 2. Included FilesThe database implementation is provided in three SQL files:- create_tables.sql: this file contains all CREATE DATABASE and CREATE TABLE statements, including constraints and relaitonships.- insert_data.sql: this file includes all INSERT statements with sample data (20+ records per table, expect CancellationPolicy).- test_queries.sql: this file contains test and analytical queries used to test and demonstrate the database structure.3. Installation StepsSTEP 1: Open your preferred MySQL client.STEP 2: Connect to your MySQL server.STEP 3: Run create_tables.sql to create the database and all tables.STEP 4: Run insert_data.sql to insert the sample data.Step 5: As an option, run test_queries.sql to check that the database works as expected and to view some example queries.4. Installation VerificationAfter running the scripts:- Database AirbnbDB will be created.- A total of 24 tables with sample records.- Verification queries can be executed from the test queries file to confirm a correct installation.5. Notes The CancellationPolicy table contains only 5 records, instead of at least 20.This is  intentional, as these entries represent cancellation options used by Airbnb. All other 23 tables contain at least 20 records, meeting the project requirements.
+Airbnb Database Installation Manual
+Course: Build a Data Mart in SQL (DLBDSPBDM01)
+Student: Olga Ruiz 
+Matriculation number: 9215654
+
+
+INDEX: 
+1. System Requirements
+2. Included Files
+3. Installation Steps
+4. Installation Verification
+5. Notes
+
+1. System Requirements
+To run this database system, you will need:
+- A relational database management system: MySQL 8.0 or higher
+- A database client such as MySQL Workbench, DBeaver, etc. 
+
+2. Included Files
+The database implementation is provided in three SQL files:
+- create_tables.sql: this file contains all CREATE DATABASE and CREATE TABLE statements, including constraints and relaitonships.
+- insert_data.sql: this file includes all INSERT statements with sample data (20+ records per table, expect CancellationPolicy).
+- test_queries.sql: this file contains test and analytical queries used to test and demonstrate the database structure.
+
+3. Installation Steps
+STEP 1: Open your preferred MySQL client.
+STEP 2: Connect to your MySQL server.
+STEP 3: Run create_tables.sql to create the database and all tables.
+STEP 4: Run insert_data.sql to insert the sample data.
+Step 5: As an option, run test_queries.sql to check that the database works as expected and to view some example queries.
+
+4. Installation Verification
+After running the scripts:
+- Database AirbnbDB will be created.
+- A total of 24 tables with sample records.
+- Verification queries can be executed from the test queries file to confirm a correct installation.
+
+5. Notes 
+The CancellationPolicy table contains only 5 records, instead of at least 20.
+This is  intentional, as these entries represent cancellation options used by Airbnb. 
+All other 23 tables contain at least 20 records, meeting the project requirements.
