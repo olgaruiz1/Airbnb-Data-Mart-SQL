@@ -1,10 +1,13 @@
-# Airbnb Data Mart – SQL Project
+# Airbnb Relational Database – SQL Project
 
 ## Project Overview
 This project is a relational database system inspired by the Airbnb platform.  
 It was developed as part of the course *Build a Data Mart in SQL* and focuses on designing, implementing and testing a normalized database using SQL.
 
 The goal is to simulate a real-world booking platform by modeling users, properties, bookings, payments, reviews, messaging, support incidents and all interactions between different roles.
+
+<img width="550" height="500" alt="ERM_Airbnb drawio" src="https://github.com/user-attachments/assets/b0e9395c-742b-4f51-a4f0-d7a7c113c348" />
+
 
 ## Key Features
 - **Multi‑role system** – Users can act as Guests, Hosts, Administrators or Customer Support agents.  
@@ -85,8 +88,6 @@ The database was designed using an Entity Relationship Model (ERD), which define
 - Constraints to ensure data integrity (ex: CHECK for ratings between 1 and 5)
 
 The system was normalized to avoid redundancy and ensure consistency.
-
-* The full ER diagram can be found in the docs/ folder.
 
 ## Example Queries
 The project includes test queries for:
