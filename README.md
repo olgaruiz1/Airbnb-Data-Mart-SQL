@@ -95,7 +95,7 @@ The project includes test queries for:
 - Booking analysis (occupancy, cancellations, revenue per property)
 - Revenue calculations (including platform commissions)
 - User and property insights (Superhost status, response rate, loyalty points)
-- Data validation (orphan records, date consistency, referential integrity, row counts per table)
+- Data validation (row counts per table, basic referential integrity checks, and data consistency exploration)
 
 ## Documentation
 All detailed documentation is available in the docs/ folder:
