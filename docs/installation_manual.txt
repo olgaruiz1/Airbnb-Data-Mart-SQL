@@ -1,7 +1,6 @@
 Airbnb Database Installation Manual
-Course: Build a Data Mart in SQL (DLBDSPBDM01)
+Course: Build a Data Mart in SQL
 Student: Olga Ruiz 
-Matriculation number: 9215654
 
 
 INDEX: 
